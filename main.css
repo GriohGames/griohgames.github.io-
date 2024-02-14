@@ -1,0 +1,223 @@
+:root {
+    --dark-highlight: #00FFD1;
+    --button-bg: #1A1A1A;
+    --bs-body-bg: #000;
+    --text: #fff;
+    --input-focus-shadow: 0 0 0 0.25rem hsla(169, 100%, 50%, 0.25);
+}
+
+html[data-bs-theme=dark] a {
+    color: #fff
+}
+
+html[data-bs-theme=dark] a:hover {
+    color: var(--dark-highlight);
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+}
+
+.site-header svg.injectable path {
+    fill: white
+}
+
+.nav-menu {
+    font-size: 1rem;
+}
+
+.game-aside .injectable {
+    width: 1.5rem;
+    height: auto;
+    fill: white;
+}
+
+.site-logo svg.injectable {
+    height: 8rem;
+    width: auto;
+}
+
+.nav-socual svg.injectable {
+    width: 1rem;
+    height: auto;
+}
+
+.game-aside ul li:hover a {
+    color: var(--dark-highlight);
+}
+
+.show-more-link svg.injectable:hover path,
+.site-header a:hover svg.injectable path,
+.site-logo:hover svg path,
+.game-aside ul li:hover svg.injectable path {
+    fill: var(--dark-highlight);
+}
+
+
+.game-description p {
+    margin-bottom: 3rem;
+}
+
+.game-list figure {
+    overflow: hidden;
+}
+
+.game-list figure img {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.game-list figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.game-info h3 {
+    font-weight: 600;
+}
+
+.game-list-services svg {
+    width: 1rem;
+    height: 1rem;
+    fill: #C5C5C5;
+}
+
+.show-more-link {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.show-more-link a {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.show-more-link a svg.injectable {
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: rotate(-45deg);
+}
+
+.show-more-link a svg.injectable path {
+    fill: #fff
+}
+
+.show-more-link:hover a svg.injectable path {
+    fill: var(--dark-highlight);
+}
+
+.game-media img:hover {
+    cursor: pointer;
+}
+
+.site-footer {
+    font-size: 1rem;
+}
+
+
+.member-list li h5 {
+    font-size: 1rem !important;
+}
+
+.form-floating>.form-control {
+    height: auto;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    width: 360px;
+    transition: width .3s ease-in-out;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    font-size: 1rem;
+}
+
+
+.form-creator .form-control:focus {
+    width: 100%;
+    box-shadow: var(--input-focus-shadow);
+    border-color: var(--dark-highlight);
+}
+
+
+.form-creator button {
+    width: 22rem;
+    height: 3.5rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    background: var(--button-bg);
+}
+
+.form-creator button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #fff;
+}
+
+.game-badge p {
+    font-size: 0.825rem;
+    opacity: 0.5;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.lang svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.modal-lang .modal-body {
+    font-size: 1rem
+}
+
+.modal-lang .btn-close {
+    background-size: 1rem;
+}
+
+.banner-home h3 {
+    margin: 2rem 0 1.5rem;
+    font-size: 4rem;
+
+}
+
+.banner-home .banner-major-column img {
+    height: 34rem;
+}
+
+.banner-home .banner-minor-column h3 {
+    font-size: 3rem;
+    margin: 1rem 0;
+
+}
+
+.banner-image {
+    position: relative
+}
+
+.banner-home p {
+    color: var(--dark-highlight);
+}
+
+.banner-home figcaption {
+    bottom: 1rem;
+    position: absolute;
+    left: 1rem;
+}
+
+.banner-home figcaption svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.banner-home figcaption svg path {
+    fill: #fff;
+}
+
+.banner-home figcaption:hover svg path {
+    fill: var(--dark-highlight);
+}
+
+.page-subtitle {
+    color: var(--dark-highlight);
+}

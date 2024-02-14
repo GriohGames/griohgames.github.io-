@@ -1,0 +1,33 @@
+title: Grioh Games
+email: play@grioh.co
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" 
+url: "" 
+social_username: griohgames
+
+plugins:
+  - jekyll-feed
+
+
+permalink: :title:output_ext
+
+service-title-apple: Play on Apple Store
+service-title-epic: Play on Epic Games Store
+service-title-ios: Play on iOS App Store
+service-title-play: Play on Google Play
+service-title-playstation: Play on Playstation Store
+service-title-steam: Play on Steam
+service-title-xbox: Play on Xbox
+service-title-twitch: Play on Switch
+ 
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
